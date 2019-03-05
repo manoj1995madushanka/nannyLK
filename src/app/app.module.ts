@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { AuthComponent } from './auth/auth.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
-import { BotComponent } from './bot/bot.component';
 import { FindServiceComponent } from './find-service/find-service.component';
 import { ForumComponent } from './forum/forum.component';
 import { GiveServiceComponent } from './give-service/give-service.component';
@@ -13,7 +12,6 @@ import { NavigationComponent } from './interface/navigation/navigation.component
 import { HeaderComponent } from './interface/navigation/header/header.component';
 import { NavBarComponent } from './interface/navigation/nav-bar/nav-bar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { BotDialogComponent } from './bot/bot-dialog/bot-dialog.component';
 
 @NgModule({
   declarations: [
@@ -21,14 +19,12 @@ import { BotDialogComponent } from './bot/bot-dialog/bot-dialog.component';
     AuthComponent,
     SignupComponent,
     LoginComponent,
-    BotComponent,
     FindServiceComponent,
     ForumComponent,
     GiveServiceComponent,
     NavigationComponent,
     HeaderComponent,
-    NavBarComponent,
-    BotDialogComponent
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
