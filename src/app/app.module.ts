@@ -12,6 +12,7 @@ import { GiveServiceComponent } from './give-service/give-service.component';
 import { NavigationComponent } from './interface/navigation/navigation.component';
 import { HeaderComponent } from './interface/navigation/header/header.component';
 import { NavBarComponent } from './interface/navigation/nav-bar/nav-bar.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NavBarComponent } from './interface/navigation/nav-bar/nav-bar.componen
     NavBarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
