@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BotComponent } from './bot.component';
+import { BotDialogComponent } from './bot-dialog.component';
 
-describe('BotComponent', () => {
-  let component: BotComponent;
-  let fixture: ComponentFixture<BotComponent>;
+describe('BotDialogComponent', () => {
+  let component: BotDialogComponent;
+  let fixture: ComponentFixture<BotDialogComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BotComponent ]
+      declarations: [ BotDialogComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BotComponent);
+    fixture = TestBed.createComponent(BotDialogComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

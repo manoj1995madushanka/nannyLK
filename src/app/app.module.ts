@@ -13,6 +13,7 @@ import { NavigationComponent } from './interface/navigation/navigation.component
 import { HeaderComponent } from './interface/navigation/header/header.component';
 import { NavBarComponent } from './interface/navigation/nav-bar/nav-bar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BotDialogComponent } from './bot/bot-dialog/bot-dialog.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     GiveServiceComponent,
     NavigationComponent,
     HeaderComponent,
-    NavBarComponent
+    NavBarComponent,
+    BotDialogComponent
   ],
   imports: [
     BrowserModule,
