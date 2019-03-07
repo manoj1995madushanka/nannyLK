@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AuthComponent } from './auth/auth.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
 import { FindServiceComponent } from './find-service/find-service.component';
@@ -13,11 +12,11 @@ import { HeaderComponent } from './interface/navigation/header/header.component'
 import { NavBarComponent } from './interface/navigation/nav-bar/nav-bar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {AppRoutingModule} from './app-routing.module';
+import {MaterialModule} from './material.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthComponent,
     SignupComponent,
     LoginComponent,
     FindServiceComponent,
@@ -30,7 +29,8 @@ import {AppRoutingModule} from './app-routing.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
